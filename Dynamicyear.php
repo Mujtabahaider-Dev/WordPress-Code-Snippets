@@ -5,3 +5,5 @@ function dynamic_copyright() {
     return '&copy; ' . date('Y') . ' YourSiteName';
 }
 add_shortcode('copyright_year', 'dynamic_copyright');
+
+
